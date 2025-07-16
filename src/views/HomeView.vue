@@ -8,28 +8,47 @@ import AppLayout from '@/components/AppLayout.vue'
   <AppLayout>
     <template #content>
       <v-row>
-        <v-col cols="12" class="d-flex flex-column align-center justify-center">
+        <v-col cols="12" sm="8" class="mx-auto d-flex flex-column align-center justify-center">
           <div class="d-flex align-center justify-center">
             <v-img :src="LogoCSUMain" width="200" height="200" class="mb-5"></v-img>
             <v-img :src="LogoCSUCC" width="200" height="200" class="mb-5"></v-img>
           </div>
 
-          <h1 class="text-h1 text-center mt-16 font-weight-bold">Hello CSU-CC</h1>
+          <v-card class="v-card" rounded="lg">
+            <v-card-text>
+              <h1 class="text-h1 text-center my-5 font-weight-bold">Hello CSU-CC</h1>
 
-          <v-btn
-            class="mt-5"
-            prepend-icon="mdi-login"
-            size="x-large"
-            color="success"
-            elevation="10"
-            to="/login"
-          >
-            Login Here!
-          </v-btn>
+              <p class="text-center mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga at iusto est
+                deserunt quibusdam aliquam nostrum odit vitae odio totam labore temporibus, quas
+                quae consectetur rerum, quos voluptate dolor! Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Dolorum provident eius labore molestias libero quas
+                iure, similique dignissimos vitae molestiae incidunt! Hic accusantium quisquam
+                similique ratione quibusdam rem atque impedit?
+              </p>
+
+              <div class="d-flex justify-center">
+                <v-btn
+                  class="font-weight-bold mt-5"
+                  prepend-icon="mdi-login"
+                  size="x-large"
+                  color="success"
+                  elevation="10"
+                  to="/login"
+                >
+                  Login Here!
+                </v-btn>
+              </div>
+            </v-card-text>
+          </v-card>
         </v-col>
       </v-row>
     </template>
   </AppLayout>
 </template>
 
-<style scoped></style>
+<style scoped>
+.v-card {
+  opacity: 0.5;
+}
+</style>
