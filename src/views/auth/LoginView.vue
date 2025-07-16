@@ -69,7 +69,14 @@ const onSubmit = () => {
             </v-card>
 
             <div class="text-center mt-4">
-              <v-btn class="font-weight-bold" color="success" variant="elevated" text to="/">
+              <v-btn
+                class="font-weight-bold"
+                color="success"
+                size="large"
+                variant="elevated"
+                text
+                to="/"
+              >
                 Back to Home <v-icon icon="mdi-chevron-left"></v-icon>
               </v-btn>
             </div>
