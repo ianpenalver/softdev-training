@@ -14,7 +14,7 @@ import AppLayout from '@/components/AppLayout.vue'
             <v-img :src="LogoCSUCC" width="200" height="200" class="mb-5"></v-img>
           </div>
 
-          <h1 class="text-h1 text-center my-5 font-weight-bold">Hello CSU-CC</h1>
+          <h1 class="text-h1 text-center my-5 font-weight-bold">Hello Dominic</h1>
 
           <p class="text-center mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga at iusto est deserunt
