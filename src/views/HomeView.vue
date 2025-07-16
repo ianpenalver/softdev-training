@@ -14,41 +14,31 @@ import AppLayout from '@/components/AppLayout.vue'
             <v-img :src="LogoCSUCC" width="200" height="200" class="mb-5"></v-img>
           </div>
 
-          <v-card class="v-card" rounded="lg">
-            <v-card-text>
-              <h1 class="text-h1 text-center my-5 font-weight-bold">Hello CSU-CC</h1>
+          <h1 class="text-h1 text-center my-5 font-weight-bold">Hello Crissy</h1>
 
-              <p class="text-center mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga at iusto est
-                deserunt quibusdam aliquam nostrum odit vitae odio totam labore temporibus, quas
-                quae consectetur rerum, quos voluptate dolor! Lorem ipsum dolor, sit amet
-                consectetur adipisicing elit. Dolorum provident eius labore molestias libero quas
-                iure, similique dignissimos vitae molestiae incidunt! Hic accusantium quisquam
-                similique ratione quibusdam rem atque impedit?
-              </p>
+          <p class="text-center mb-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga at iusto est deserunt
+            quibusdam aliquam nostrum odit vitae odio totam labore temporibus, quas quae consectetur
+            rerum, quos voluptate dolor! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dolorum provident eius labore molestias libero quas iure, similique dignissimos vitae
+            molestiae incidunt! Hic accusantium quisquam similique ratione quibusdam rem atque
+            impedit?
+          </p>
 
-              <div class="d-flex justify-center">
-                <v-btn
-                  class="font-weight-bold mt-5"
-                  prepend-icon="mdi-login"
-                  size="x-large"
-                  color="success"
-                  elevation="10"
-                  to="/login"
-                >
-                  Login Here!
-                </v-btn>
-              </div>
-            </v-card-text>
-          </v-card>
+          <div class="d-flex justify-center">
+            <v-btn
+              class="font-weight-bold mt-5"
+              prepend-icon="mdi-login"
+              size="x-large"
+              color="success"
+              elevation="10"
+              to="/login"
+            >
+              Login Here!
+            </v-btn>
+          </div>
         </v-col>
       </v-row>
     </template>
   </AppLayout>
 </template>
-
-<style scoped>
-.v-card {
-  opacity: 0.5;
-}
-</style>
